@@ -1,0 +1,32 @@
+﻿{
+	"software": [
+		{
+			"language": "Java",
+			"year": 2014,
+			"level": 4
+		},
+		{
+			"language": "C++",
+			"year": 2016,
+			"level": 1
+		}
+	],
+	
+	"web": [
+		{
+			"language": "HTML",
+			"year": 2017,
+			"level": 2
+		},
+		{
+			"language": "CSS",
+			"year": 2017,
+			"level": 2
+		},
+		{
+			"language": "JavaScript",
+			"year": 2017,
+			"level": 1
+		}
+	]
+}
