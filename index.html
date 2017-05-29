@@ -1,9 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<!-- Paramètres de la page -->
     <head>
 		<title>Poslovitch</title>
 		<link id="favicon" rel="shortcut icon" type="image/png" href="images/favicon.png" />
+		
+		<script type="text/javascript" src="script.js"></script>
 		
 		<link rel="stylesheet" href="content.css" />
 		
@@ -19,7 +21,7 @@
 	<!-- Page -->
 	<body>
 		<!-- Header -->
-		<header>
+		<header id="header">
 			<h1>Poslovitch</h1>
 			<p>Développement informatique et musique</p>
 		</header>
@@ -47,7 +49,7 @@
 					<br />Pianiste, Organiste</p>
 				</header>
 				<footer>
-					<a href="#infos">Plus d'informations</a>
+					<button type="button" onclick="index_goToInfos()" style="vertical-align:middle"><span>Plus d'informations</span></button>
 				</footer>
 			</section>
 			
@@ -72,7 +74,7 @@
 		</main>
 		
 		<!-- Footer -->
-		<footer>
+		<footer id="footer">
 			<!-- Liens -->
 			<section id="links">
 				<h1>Où me trouver?</h1>
@@ -86,7 +88,7 @@
 			</section>
 			
 			<!-- Copyright -->
-			<ul class="copyright">
+			<ul id="copyright">
 				<li>&copy; Poslovitch 2017. Tous droits réservés.</li>
 				<li>Site hébergé par <a href="https://github.com/">GitHub Pages</a>.</li>
 				<li><a href="https://github.com/Poslovitch/Poslovitch.github.io">Voir le code source</a></li>
