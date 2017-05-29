@@ -33,6 +33,36 @@ a:active {
 	text-shadow: 1px 2px 4px white;
 }
 
+/* Navbar CSS */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	
+	/* Fixing it to the top of screen */
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #111;
+}
+
 ul.copyright li {
 	display: inline;
 	list-style: none;
