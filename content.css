@@ -33,8 +33,7 @@ a:active {
 	text-shadow: 1px 2px 4px white;
 }
 
-.copyright {
+ul.copyright li {
+	display: inline;
 	list-style: none;
-	margin: 0;
-	padding-left: 0;
 }
