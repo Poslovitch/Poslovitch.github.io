@@ -21,7 +21,7 @@
 						},
 						
 						{
-							"name": "Slimefun",
+							"name": "Slimefun4",
 							"description": "todo",
 							"img": "todo",
 							"when": "19/08/2016",
@@ -46,6 +46,16 @@
 				
 				{
 					"name": "Geothermiq",
+					"description": "todo",
+					"img": "todo",
+					"when": "14/06/2017",
+					"link": "todo"
+				}
+			],
+			
+			"stellaris": [
+				{
+					"name": "Greenergy",
 					"description": "todo",
 					"img": "todo",
 					"when": "14/06/2017",
